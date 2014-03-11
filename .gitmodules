@@ -1,4 +1,4 @@
-[submodules "ourcar"]
+[submodule "ourcar"]
 	path = ourcar
 	url = https://github.com/mazhao/ourcar_inner.git
 	

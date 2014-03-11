@@ -6,38 +6,38 @@ OurCar means "our car to success"
 # 检出工程、运行
 1. clone the main repository
 
-  git clone https://github.com/mazhao/ourcar.git
+  ~> git clone https://github.com/mazhao/ourcar.git
 
 2. initialize all the submodules
 
-  cd ourcar
+  ~>cd ourcar
   
-  git submodule init
+  ~>git submodule init
   
-  git submodule update
+  ~>git submodule update
 
 3. open workspace
-4. 
-open ourcar.xcworkspace
+ 
+  ~>open ourcar.xcworkspace
 
 # 更新ourcar子摸快的方法
 
   # change to the submodule directory
   
-  cd ourcar 
+  ~>cd ourcar 
 
   # checkout desired branch
   
-  git checkout master
+  ~>git checkout master
 
   # update
   
-  git pull
+  ~>git pull
 
   # get back to your project root
   
-  cd ..
+  ~>cd ..
 
   # now the submodules are in the state you want, so
   
-  git commit -am "Pulled down update to submodule_dir"
+  ~>git commit -am "Pulled down update to submodule_dir"
